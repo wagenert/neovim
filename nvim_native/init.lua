@@ -1,0 +1,5 @@
+require('options')
+require('keymap')
+require('lsp')
+require('netrw')
+require('statusline')
