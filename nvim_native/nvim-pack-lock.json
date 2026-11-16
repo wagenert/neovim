@@ -4,6 +4,10 @@
       "rev": "edefef779ab08ce1a4a404713e3012b0d202bd35",
       "src": "https://github.com/catppuccin/nvim"
     },
+    "gitsigns.nvim": {
+      "rev": "dc7698f932792a764d3db95fedee26c38e728355",
+      "src": "https://github.com/lewis6991/gitsigns.nvim"
+    },
     "nvim-lspconfig": {
       "rev": "77b7432d4770d23b277d37923e5a08a442d8bb07",
       "src": "https://github.com/neovim/nvim-lspconfig"

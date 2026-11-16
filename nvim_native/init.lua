@@ -1,5 +1,6 @@
 require('options')
 require('keymap')
+require('autocommands')
 require('lsp')
 require('netrw')
 require('statusline')

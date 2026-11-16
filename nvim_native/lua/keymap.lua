@@ -58,4 +58,5 @@ vim.keymap.set('n', '<leader>td', function()
   vim.diagnostic.enable(not vim.diagnostig.is_enabled())
 end, { desc = 'Toggle diagnostics' })
 
-
+-- shortcut for sourcing
+vim.keymap.set({'n', 'x'}, '<leader>so', ':source<CR>', {desc = 'Source config files'})
