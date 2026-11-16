@@ -11,6 +11,10 @@
     "nvim-lspconfig": {
       "rev": "77b7432d4770d23b277d37923e5a08a442d8bb07",
       "src": "https://github.com/neovim/nvim-lspconfig"
+    },
+    "tree-sitter-manager.nvim": {
+      "rev": "06c90a3af8eb471f4a4ff979d681312284a8583a",
+      "src": "https://github.com/romus204/tree-sitter-manager.nvim"
     }
   }
 }
