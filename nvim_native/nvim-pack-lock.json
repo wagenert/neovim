@@ -4,6 +4,10 @@
       "rev": "edefef779ab08ce1a4a404713e3012b0d202bd35",
       "src": "https://github.com/catppuccin/nvim"
     },
+    "efmls-configs": {
+      "rev": "f145a2e8212a195d44c1430e76cbc96efb0afb08",
+      "src": "https://github.com/creativenull/efmls-configs-nvim"
+    },
     "gitsigns.nvim": {
       "rev": "dc7698f932792a764d3db95fedee26c38e728355",
       "src": "https://github.com/lewis6991/gitsigns.nvim"
