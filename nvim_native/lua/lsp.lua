@@ -1,3 +1,4 @@
+
 local diagnostic_signs = {
 	Error = "\u{f057} ",
 	Warn = "\u{f071} ",
