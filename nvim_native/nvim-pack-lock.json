@@ -36,6 +36,18 @@
       "rev": "77b7432d4770d23b277d37923e5a08a442d8bb07",
       "src": "https://github.com/neovim/nvim-lspconfig"
     },
+    "plenary.nvim": {
+      "rev": "74b06c6c75e4eeb3108ec01852001636d85a932b",
+      "src": "https://github.com/nvim-lua/plenary.nvim"
+    },
+    "telescope-fzf-native.nvim": {
+      "rev": "b25b749b9db64d375d782094e2b9dce53ad53a40",
+      "src": "https://github.com/nvim-telescope/telescope-fzf-native.nvim"
+    },
+    "telescope.nvim": {
+      "rev": "1e1bab730218eaf97fce743be3f56e51075928ac",
+      "src": "https://github.com/nvim-telescope/telescope.nvim"
+    },
     "tree-sitter-manager.nvim": {
       "rev": "06c90a3af8eb471f4a4ff979d681312284a8583a",
       "src": "https://github.com/romus204/tree-sitter-manager.nvim"
