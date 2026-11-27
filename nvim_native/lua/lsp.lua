@@ -38,9 +38,7 @@ local function lsp_on_attach(ev)
 	local bufnr = ev.buf
 	local opts = { noremap = true, silent = true, buffer = bufnr }
 
-	vim.keymap.set("n", "<leader>gd", function()
-		require("fzf-lua").lsp_definitions({ jump_to_single_result = true })
-	end, opts)
+	vim.keymap.set("n", "<leader>gd", ":Telescope lsp_references<CR>")
 
 	vim.keymap.set("n", "<leader>gD", vim.lsp.buf.definition, opts)
 
@@ -68,21 +66,11 @@ local function lsp_on_attach(ev)
 
 	vim.keymap.set("n", "K", vim.lsp.buf.hover, opts)
 
-	vim.keymap.set("n", "<leader>fr", function()
-		require("fzf-lua").lsp_references()
-	end, opts)
-	vim.keymap.set("n", "<leader>ft", function()
-		require("fzf-lua").lsp_typedefs()
-	end, opts)
-	vim.keymap.set("n", "<leader>fs", function()
-		require("fzf-lua").lsp_document_symbols()
-	end, opts)
-	vim.keymap.set("n", "<leader>fw", function()
-		require("fzf-lua").lsp_workspace_symbols()
-	end, opts)
-	vim.keymap.set("n", "<leader>fi", function()
-		require("fzf-lua").lsp_implementations()
-	end, opts)
+	vim.keymap.set("n", "<leader>fr", ":Telescope lsp_references<CR>")
+	vim.keymap.set("n", "<leader>ft", ":Telescope lsp_type_definitions<CR>")
+	vim.keymap.set("n", "<leader>fs", ":Telescope lsp_document_symbols<CR>")
+	vim.keymap.set("n", "<leader>fw", ":Telescope lsp_workspace_symbols<CR>")
+	vim.keymap.set("n", "<leader>fi", ":Telescope lsp_implementations<CR>")
 
 	if client:supports_method("textDocument/codeAction", bufnr) then
 		vim.keymap.set("n", "<leader>oi", function()
